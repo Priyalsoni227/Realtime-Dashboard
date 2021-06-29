@@ -1,0 +1,84 @@
+.wsSecondRow-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.secondRow-left{
+    flex-basis: 57%;
+}
+
+.secondRow-right{
+    flex-basis: 39%;
+}
+
+.wsSecondRow-container .ct-series-a .ct-line {
+    /* Set the colour of this series line */
+    stroke: rgba(57, 71, 199, 0.829);
+    /* Control the thikness of your lines */
+    stroke-width: 4px;
+
+  }
+
+  .wsSecondRow-container .ct-series-a .ct-point{
+    stroke: rgba(57, 71, 199, 0.829);
+}
+
+  .wsSecondRow-container .chartItem{
+      width: 80%;
+      margin: 10px auto 10px;
+  }
+
+  .ws-name{
+      margin-top: 14px;
+      text-align: center;
+  }
+
+  .secondRow-left{
+      display: flex;
+      flex-direction: column;
+  }
+
+  .secondRow-left .bottom{
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+
+  .secondRow-left .bottom .cardItem{
+      width: 22%;
+  }
+
+  .secondRow-left .bottom .cardItem p{
+      text-align: center;
+  }
+
+  .secondRow-left .bottom .cardItem p.title{
+      margin-top: 8px;
+  }
+  .secondRow-left .bottom .cardItem p.value{
+      margin-bottom: 8px;
+  }
+
+  .secondRow-left .bottom .MuiPaper-elevation1{
+      
+  /* box-shadow: 0 4px 20px 0 rgb(0 0 0 / 14%), 0 7px 10px -5px rgb(0 172 193 / 40%); */
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
+  box-shadow: rgba(204, 204, 240, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: 1px solid pink!important;
+  
+  }
+
+  .secondRow-left .bottom .cardItem:first-child .MuiPaper-elevation1{
+      border: 2px solid pink!important;
+  }
+
+
+  .secondRow-left .bottom{
+      font-weight: 600;
+  }
+
+  
+ 
