@@ -1,0 +1,145 @@
+.wsSecondRow-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.secondRow-left{
+    flex-basis: 57%;
+}
+
+.secondRow-right{
+    flex-basis: 39%;
+}
+
+.wsSecondRow-container .ct-series-a .ct-line {
+    /* Set the colour of this series line */
+    stroke: rgba(57, 71, 199, 0.829);
+    /* Control the thikness of your lines */
+    stroke-width: 4px;
+
+  }
+
+  .wsSecondRow-container .ct-series-a .ct-point{
+    stroke: rgba(57, 71, 199, 0.829);
+}
+
+  .wsSecondRow-container .chartItem{
+      width: 80%;
+      margin: 10px auto 10px;
+  }
+
+  .ws-name{
+      margin-top: 14px;
+      text-align: center;
+  }
+
+  .secondRow-left{
+      display: flex;
+      flex-direction: column;
+  }
+
+  .secondRow-left .bottom{
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+
+  .secondRow-left .bottom .cardItem{
+      width: 22%;
+  }
+
+  .secondRow-left .bottom .cardItem p{
+      text-align: center;
+  }
+
+  .secondRow-left .bottom .cardItem p.title{
+      margin-top: 8px;
+  }
+  .secondRow-left .bottom .cardItem p.value{
+      margin-bottom: 8px;
+  }
+
+  /* .secondRow-left .bottom .MuiPaper-elevation1{
+      
+  box-shadow: 0 4px 20px 0 rgb(0 0 0 / 14%), 0 7px 10px -5px rgb(0 172 193 / 40%);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+  
+  } */
+
+  /* .secondRow-left .bottom .cardItem:nth-child(4) .MuiPaper-elevation1{
+    background: linear-gradient(
+    60deg
+    , #26c6da, #00acc1);
+        box-shadow: 0 4px 20px 0 rgb(0 0 0 / 14%), 0 7px 10px -5px rgb(0 172 193 / 40%);
+  }
+  .secondRow-left .bottom .cardItem:nth-child(1) .MuiPaper-elevation1{
+    background: linear-gradient(
+60deg
+, #ffa726, #fb8c00);
+    box-shadow: 0 4px 20px 0 rgb(0 0 0 / 14%), 0 7px 10px -5px rgb(255 152 0 / 40%);
+  }
+  .secondRow-left .bottom .cardItem:nth-child(2) .MuiPaper-elevation1{
+    background: linear-gradient(
+        60deg
+        , #66bb6a, #43a047);
+            box-shadow: 0 4px 20px 0 rgb(0 0 0 / 14%), 0 7px 10px -5px rgb(76 175 80 / 40%);
+  }
+  .secondRow-left .bottom .cardItem:nth-child(3) .MuiPaper-elevation1{
+    background: linear-gradient(
+        60deg
+        , #ef5350, #e53935);
+            box-shadow: 0 4px 20px 0 rgb(0 0 0 / 14%), 0 7px 10px -5px rgb(244 67 54 / 40%);
+  } */
+ 
+
+
+  
+
+
+  .secondRow-left .bottom{
+      font-weight: 600;
+  }
+
+  /* .secondRow-left .bottom .title{
+    color:#fff;
+    
+  }
+  .secondRow-left .bottom .value{
+    color:#fff;
+
+  } */
+
+
+  .pb-item{
+      margin: 20px 0;
+      width:100%
+  }
+
+  .pb-container{
+      margin: 6px 33px;
+      /* height: 280px; */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  /* .secondRow-right{
+    height: 302px;
+  } */
+
+  .process-name{
+      font-size: 20px;
+      font-weight: 600;
+      color:#555;
+  }
+
+  .sub-process{
+  margin: 7px 0;
+  font-size: 14px;
+  }
+  
+ 
