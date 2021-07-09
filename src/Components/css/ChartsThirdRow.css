@@ -1,0 +1,110 @@
+.tcrContainer{
+   
+    display: flex;
+    margin: 40px 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.tcrItem:first-child{
+    width:54%;
+    
+    position: relative;
+}
+.tcrItem:nth-child(2){
+    width:44%;
+    
+    position: relative;
+}
+
+.tcrIcon{
+    height:64px;
+    width:64px;
+    color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    position: absolute;
+    left:20px;
+    top:-20px;
+   
+}
+
+.tcrIcon.first{
+    background: linear-gradient(60deg, #26c6da, #00acc1);
+    box-shadow: 0 4px 20px 0 rgb(0 0 0 / 14%), 0 7px 10px -5px rgb(0 172 193 / 40%);
+}
+
+.tcrIcon.second{
+    background: linear-gradient(60deg, #ec407a, #d81b60);
+    box-shadow: 0 4px 20px 0 rgb(0 0 0 / 14%), 0 7px 10px -5px rgb(233 30 99 / 40%);
+}
+
+.trcChartItem{
+    margin-top: 20px;
+ 
+}
+
+.tcrContainer .ct-label {
+    color: #555;
+}
+
+.tcrContainer .ct-grid{
+    stroke: #555;
+    stroke-width: 1px;
+}
+
+.tcrContainer .ct-series-a .ct-line {
+    /* Set the colour of this series line */
+    stroke: rgb(52, 131, 235);
+    /* Control the thikness of your lines */
+    stroke-width: 4px;
+    /* Create a dashed line with a pattern */
+    /* stroke-dasharray: 10px 20px; */
+  }
+
+
+
+ .tcrContainer .ct-series-a .ct-point{
+      stroke: rgb(52, 131, 235);
+  }
+
+ .tcrContainer .ct-series-a .ct-bar {
+  
+    stroke-width: 8px;
+
+  }
+
+  .trcTitle{
+      padding-left: 100px;
+      padding-top: 20px;
+  }
+
+  .trcTitle1{
+    padding-top: 4px;
+    padding-left: 100px;
+  }
+
+  .trcTitle1 div{
+    display: inline-block;
+    
+    margin-left: 4px;
+   margin-right: 10px; 
+   position: relative;
+   top:2px;
+   width: 14px;
+   height: 14px;
+   background-color: #d70206;
+   border-radius: 50%;
+  }
+
+  .trcTitle1 div:nth-child(2){
+    background-color: #f05b4f;
+  }
+
+  .trcTitle1 div:nth-child(3){
+    background-color: #f4c63d;
+  }
