@@ -34,7 +34,7 @@ export const SignUp = () => {
 
    function SubmitUserDetails(e){
     e.preventDefault()
-    alert("You clicked")
+//     alert("You clicked")
     console.log("Start")
        db.collection("User").doc("1").set({
            ...values_su,
