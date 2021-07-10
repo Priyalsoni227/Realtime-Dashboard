@@ -36,7 +36,7 @@ export const SignUp = () => {
     e.preventDefault()
     alert("You clicked")
     console.log("Start")
-       db.collection("User").doc("2").set({
+       db.collection("User").doc("1").set({
            ...values_su,
            
        })
