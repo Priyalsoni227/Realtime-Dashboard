@@ -1,0 +1,63 @@
+#header{
+    height:80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.iconGroup{
+    display: flex;
+    align-items: center;
+}
+
+.headerRight{
+    display: flex;
+    align-items: center;
+}
+
+.headerRight .iconItem{
+    margin: 0 2px;
+    color: #555;
+    
+}
+
+form{
+    display: flex;
+    align-items: center;
+}
+
+.searchBar{
+    margin-right: 10px;
+    
+}
+
+
+
+.search{
+    color:#ffffff;
+}
+
+.headerLeft{
+    font-weight: 700;
+   
+    color:#555;
+}
+
+.headerLeft p{
+    font-size: 24px;
+}
+
+.MuiFab-sizeSmall {
+  
+    background-color: #fff!important;
+}
+
+.fab{
+   margin-left: 10px;
+}
+
+.iconGroup:hover{
+    cursor:pointer
+}

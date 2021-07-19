@@ -1,0 +1,79 @@
+.dcContainer{
+    margin: 100px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+.chartItem{
+    width: 32%;
+    position: relative;
+    
+}
+
+.chart{
+    position: absolute;
+    top:-50px;
+    left:12px;
+
+    padding-top: 10px;
+    border-radius: 3px;
+}
+
+.chart.first{
+    background: linear-gradient(60deg, #26c6da, #00acc1);
+    box-shadow: 0 4px 20px 0 rgb(0 0 0 / 14%), 0 7px 10px -5px rgb(0 172 193 / 40%);
+}
+
+.chart.second{
+    background: linear-gradient(60deg, #ffa726, #fb8c00);
+     box-shadow: 0 4px 20px 0 rgb(0 0 0 / 14%), 0 7px 10px -5px rgb(255 152 0 / 40%);
+}
+
+.chart.third{
+    background: linear-gradient(60deg, #ef5350, #e53935);
+    box-shadow: 0 4px 20px 0 rgb(0 0 0 / 14%), 0 7px 10px -5px rgb(244 67 54 / 40%);
+}
+
+.cardInfo{
+    margin-top: 116px;
+    padding: 10px;
+}
+
+
+.cardInfo p{
+    margin: 4px 0;
+}
+
+.dcContainer .ct-label {
+    color: rgba(255, 255, 255, 0.829);
+}
+
+.dcContainer .ct-grid{
+    stroke: rgba(255, 255, 255, 0.829);
+    stroke-width: 1px;
+}
+
+.dcContainer .ct-series-a .ct-line {
+    /* Set the colour of this series line */
+    stroke: rgba(255, 255, 255, 0.829);
+    /* Control the thikness of your lines */
+    stroke-width: 4px;
+
+  }
+
+
+
+  .dcContainer .ct-series-a .ct-point{
+      stroke: rgba(255, 255, 255, 0.829);
+  }
+
+  .dcContainer .ct-series-a .ct-bar {
+    /* Colour of your bars */
+    stroke: rgba(255, 255, 255, 0.829);
+    /* The width of your bars */
+    stroke-width: 10px;
+  
+  }
