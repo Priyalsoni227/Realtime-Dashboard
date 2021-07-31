@@ -1,7 +1,7 @@
 # Realtime-Dashboard
 
 
-Demo dashboard application for workstation data, built with HTML, CSS, React, React-Router, JavaScript, Material-ui, Chart.js.
+Realtime dashboard application for workstation data, built with HTML, CSS, React, React-Router, JavaScript, Material-ui, Chart.js.
 
 
 ## Project Screen Shot(s)
@@ -18,11 +18,6 @@ Demo dashboard application for workstation data, built with HTML, CSS, React, Re
 <img src="https://user-images.githubusercontent.com/61454329/127739373-c11e7410-0e0e-4d58-bda9-bc78d8edff53.png" width="600">
 <!-- ![Picture3](https://user-images.githubusercontent.com/61454329/123556956-bde1bf80-d7ab-11eb-9d69-cac9e17d32af.png) -->
 
-
-
-
-<img src="https://user-images.githubusercontent.com/61454329/123556966-c6d29100-d7ab-11eb-91cf-859d6605d0ee.png" width="600">
-<!-- ![Picture5](https://user-images.githubusercontent.com/61454329/123556966-c6d29100-d7ab-11eb-91cf-859d6605d0ee.png) -->
 
 
 ## Installation and Setup Instructions
